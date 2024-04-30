@@ -48,5 +48,7 @@
     - Incluir análises sobre as escolhas de campos, otimizações do banco de dados e desenvolvimento dos KPIs.
     - Apresentar os resultados de forma clara e objetiva, destacando insights e recomendações para a gestão estratégica do call center.
 
+Diagrama:
+
 
 ![Modelagem](https://github.com/jacksonwsup/bancodedados/blob/main/DiagramaV2.png)
