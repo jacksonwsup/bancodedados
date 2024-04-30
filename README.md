@@ -26,15 +26,21 @@ DATA DE ENTREGA: 29/04/2024
 REVISÃO PARA ENTREGA: 01/05/2024
 Separação das tarefas:
 1.       Modelagem do Banco de Dados: NOME DO RESPONSÁVEL: MATEUS FRIGO e GUSTAVO LIMA/ SUPORTE: EQUIPE
-·        Esta pessoa será encarregada de:
-·        Identificar e definir as entidades e seus relacionamentos com base nos requisitos do sistema.
-·        Elaborar o modelo Entidade-Relacionamento, incluindo as tabelas principais (Fato Atendimento) e de dimensão (Cliente, Atendente, Motivo, Canal de Atendimento, Produto ou Serviço).
-·        Garantir a correta definição das chaves primárias e estrangeiras para manter a integridade referencial.
+            Esta pessoa será encarregada de:
+· Identificar e definir as entidades e seus relacionamentos com base nos requisitos do sistema.
+· Elaborar o modelo Entidade-Relacionamento, incluindo as tabelas principais (Fato Atendimento) e de dimensão (Cliente, Atendente, Motivo, Canal de Atendimento, Produto ou Serviço).
+· Garantir a correta definição das chaves primárias e estrangeiras para manter a integridade referencial.
+
 2.       Escolhas de Campos e Tipos de Dados: NOME DO RESPONSÁVEL: MATEUS FRIGO e GUSTAVO LIMA SUPORTE:  EQUIPE
-·        Este membro do grupo ficará responsável por:
-·        Determinar os tipos de dados apropriados para cada campo em todas as tabelas do banco de dados.
-·        Assegurar a normalização do banco de dados para evitar redundância e inconsistência.
-·        Validar a consistência dos dados e garantir a precisão das informações armazenadas.
+
+· Este membro do grupo ficará responsável por:
+
+· Determinar os tipos de dados apropriados para cada campo em todas as tabelas do banco de dados.
+
+· Assegurar a normalização do banco de dados para evitar redundância e inconsistência.
+
+· Validar a consistência dos dados e garantir a precisão das informações armazenadas.
+
 3.       Otimização do Banco de Dados e criação da modelagem (tabelas e relacionamentos - engenharia reversa): NOME DO RESPONSÁVEL: GUSTAVO LIMA e MATEUS FRIGO SUPORTE: EQUIPE
 ·        Esta pessoa será responsável por:
 ·        Identificar oportunidades de otimização no banco de dados, como a criação de índices em campos frequentemente utilizados em consultas.
