@@ -1,5 +1,6 @@
-<h1> Faculdade de Tecnologia – Unicamp
+Faculdade de Tecnologia – Unicamp
  
+
 Curso: Engenharia e administração de banco de dados
 Matéria: Programação e Otimização em SQL
 Prof. Manoel A. da Silva Jr.
@@ -14,7 +15,7 @@ Lucas Ferreira
 Jackson Rodrigues
 
 Atendimentos - Call center
-Modelo entidade-relacionamento no esquema estrela </h1> 
+Modelo entidade-relacionamento no esquema estrela
 
 
 MODELO: MODELO ENTIDADE-RELACIONAMENTO NO ESQUEMA ESTRELA
@@ -25,12 +26,13 @@ Separação das tarefas:
 
 1.       Modelagem do Banco de Dados: NOME DO RESPONSÁVEL: MATEUS FRIGO e GUSTAVO LIMA/ SUPORTE: EQUIPE
     
-<ol> Esta pessoa será encarregada de:
+> Esta pessoa será encarregada de:
 
-<li>    > Identificar e definir as entidades e seus relacionamentos com base nos requisitos do sistema.</li>
-<li>    > Elaborar o modelo Entidade-Relacionamento, incluindo as tabelas principais (Fato Atendimento) e de dimensão (Cliente, Atendente, Motivo, Canal de Atendimento, Produto ou Serviço).</li>
-<li>    > Garantir a correta definição das chaves primárias e estrangeiras para manter a integridade referencial.</li>
-</ol>
+    > Identificar e definir as entidades e seus relacionamentos com base nos requisitos do sistema.
+
+    > Elaborar o modelo Entidade-Relacionamento, incluindo as tabelas principais (Fato Atendimento) e de dimensão (Cliente, Atendente, Motivo, Canal de Atendimento, Produto ou Serviço).
+
+    > Garantir a correta definição das chaves primárias e estrangeiras para manter a integridade referencial.
 
 2.       Escolhas de Campos e Tipos de Dados: NOME DO RESPONSÁVEL: MATEUS FRIGO e GUSTAVO LIMA SUPORTE:  EQUIPE
 
