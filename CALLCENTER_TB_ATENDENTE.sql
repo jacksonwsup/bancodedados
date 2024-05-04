@@ -1,0 +1,60 @@
+-- MySQL dump 10.13  Distrib 8.0.36, for Win64 (x86_64)
+--
+-- Host: localhost    Database: CALLCENTER
+-- ------------------------------------------------------
+-- Server version	8.3.0
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!50503 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `TB_ATENDENTE`
+--
+
+DROP TABLE IF EXISTS `TB_ATENDENTE`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!50503 SET character_set_client = utf8mb4 */;
+CREATE TABLE `TB_ATENDENTE` (
+  `SEQATENDENTE` int NOT NULL AUTO_INCREMENT,
+  `NOME_ATENDENTE` varchar(150) NOT NULL,
+  `CARGO` varchar(100) NOT NULL,
+  `SEQDEPARTAMENTO` int NOT NULL,
+  `NIVEL_EXPERIENCIA` varchar(100) NOT NULL,
+  `TURNO_TRABALHO` varchar(40) NOT NULL,
+  `DATA_ADMISSAO` datetime NOT NULL,
+  `DATA_ALTERACAO` datetime DEFAULT NULL,
+  PRIMARY KEY (`SEQATENDENTE`),
+  KEY `IDX_ATENDENTE_SEQ` (`SEQATENDENTE`),
+  KEY `IDX_ATENDENTE_DPTO` (`SEQDEPARTAMENTO`),
+  CONSTRAINT `TB_ATENDENTE_ibfk_1` FOREIGN KEY (`SEQDEPARTAMENTO`) REFERENCES `TB_DEPARTAMENTO` (`SEQDEPARTAMENTO`)
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `TB_ATENDENTE`
+--
+
+LOCK TABLES `TB_ATENDENTE` WRITE;
+/*!40000 ALTER TABLE `TB_ATENDENTE` DISABLE KEYS */;
+INSERT INTO `TB_ATENDENTE` VALUES (1,'Lori Richardson','Atendente',2,'SR','N','2022-04-06 13:51:24',NULL),(2,'John Johnson','Atendente',6,'SR','N','2022-07-01 18:42:06',NULL),(3,'Shelby Jimenez','Atendente',4,'PL','N','2021-08-30 12:10:41',NULL),(4,'David Fuller','Atendente',1,'JR','T','2020-05-05 20:11:34',NULL),(5,'Taylor Evans','Atendente',5,'JR','M','2020-12-13 05:08:44',NULL),(6,'Kathleen Beasley','Atendente',4,'PL','T','2024-01-30 08:48:46',NULL),(7,'Debbie Pierce','Atendente',4,'PL','M','2020-01-02 23:33:20',NULL),(8,'Corey Hicks','Atendente',1,'PL','M','2022-07-07 01:30:25',NULL),(9,'Elizabeth Rowe','Atendente',1,'PL','T','2022-02-09 12:58:32',NULL),(10,'Jason Flores','Atendente',6,'SR','N','2023-05-29 18:18:03',NULL),(11,'Kayla Crawford','Atendente',6,'JR','N','2024-01-31 06:46:49',NULL),(12,'Brian Dennis','Atendente',3,'SR','N','2022-11-26 17:20:06',NULL),(13,'Veronica Smith','Atendente',3,'SR','T','2023-10-11 20:03:00',NULL),(14,'Miranda Brady','Atendente',4,'JR','M','2020-10-28 13:34:11',NULL),(15,'Michelle Smith','Atendente',2,'SR','N','2021-04-16 16:16:19',NULL),(16,'Samantha Thomas','Atendente',1,'JR','T','2023-12-16 22:34:47',NULL),(17,'Gregg Jones','Atendente',3,'SR','N','2020-10-05 06:09:36',NULL),(18,'Katrina Fields','Atendente',1,'JR','M','2022-05-06 15:24:56',NULL),(19,'Melissa Day','Atendente',4,'JR','T','2023-01-16 00:16:29',NULL),(20,'Amy Hoffman','Atendente',1,'SR','N','2020-12-01 14:10:04',NULL);
+/*!40000 ALTER TABLE `TB_ATENDENTE` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2024-05-04 11:43:51
