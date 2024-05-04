@@ -53,36 +53,37 @@ Diagrama:
 
 ![Modelagem](https://github.com/jacksonwsup/bancodedados/blob/main/DiagramaV2.png)
 
-**Explicação da Modelagem:**
+## Explicação da Modelagem:
 
+### Tabela: TB_CLIENTE
 
-**Tabela: TB_CLIENTE**
-    - Esta tabela é responsável por armazenar o cadastro do cliente:
+- Esta tabela é responsável por armazenar o cadastro do cliente.
 
+### Tabela: TB_DEPARTAMENTO
 
-**Tabela: TB_DEPARTAMENTO **
-    - Tabela de cadastro do departamento, exemplo: Área de TI, Telemarketing e CRM.
+- Tabela de cadastro do departamento, exemplo: Área de TI, Telemarketing e CRM.
 
+### Tabela: TB_ATENDENTE
 
-**Tabela: TB_ATENDENTE **
-    - Esta tabela é onde fica registrado o cadastro dos atendentes da empresa:
+- Esta tabela é onde fica registrado o cadastro dos atendentes da empresa.
 
+### Tabela: TB_MOTIVO_ATENDIMENTO
 
-**Tabela: TB_MOTIVO_ATENDIMENTO**
-    - Esta tabela registra os motivos dos atendimentos, por exemplo: falha de equipamento, dúvidas ou elogios.
+- Esta tabela registra os motivos dos atendimentos, por exemplo: falha de equipamento, dúvidas ou elogios.
 
+### Tabela: TB_PRODUTO
 
-**Tabela: TB_PRODUTO**
-    - A tabela de produto, tem cadastro os produtos que a empresa realiza atendimento, como internet, TV a cabo, telefone entre outros.
+- A tabela de produto, tem cadastro os produtos que a empresa realiza atendimento, como internet, TV a cabo, telefone entre outros.
 
-**Tabela: TB_CANALATENDIMENTO**
-    - Esta tabela registra o status do canal 
+### Tabela: TB_CANALATENDIMENTO
 
-**Tabela: TB_ATENDIMENTO**
-    - Esta tabela registra os dados dos atendimentos
+- Esta tabela registra o status do canal.
 
+### Tabela: TB_ATENDIMENTO
 
-**Otimização do Banco de Dados**
+- Esta tabela registra os dados dos atendimentos.
 
-    - Criamos alguns índices, que irão melhorar a performance do banco.
-    - Também realizamos testes dos índices para escolher quais eram os que tiveram a melhor performance.
+## Otimização do Banco de Dados
+
+- Criamos alguns índices, que irão melhorar a performance do banco.
+- Também realizamos testes dos índices para escolher quais foram os que tiveram a melhor performance.
