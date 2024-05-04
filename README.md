@@ -53,7 +53,9 @@ Diagrama:
 
 ![Modelagem](https://github.com/jacksonwsup/bancodedados/blob/main/DiagramaV2.png)
 
-## Explicação da Modelagem:
+## Explicação da Modelagem e Link para criação e população da base de dados:
+
+### Criação do Database [DATABASE CALLCENTER](https://github.com/jacksonwsup/bancodedados/blob/main/Create_Database.sql) 
 
 ### Tabela: TB_CLIENTE [TB_CLIENTE](https://github.com/jacksonwsup/bancodedados/blob/main/CALLCENTER_TB_CLIENTE.sql) 
 
