@@ -55,35 +55,43 @@ Diagrama:
 
 ## Explicação da Modelagem:
 
-### Tabela: TB_CLIENTE
+### Tabela: TB_CLIENTE [TB_CLIENTE](https://github.com/jacksonwsup/bancodedados/blob/main/CALLCENTER_TB_CLIENTE.sql) 
 
 - Esta tabela é responsável por armazenar o cadastro do cliente.
 
-### Tabela: TB_DEPARTAMENTO
+### Tabela: TB_DEPARTAMENTO [TB_DEPARTAMENTO](https://github.com/jacksonwsup/bancodedados/blob/main/CALLCENTER_TB_DEPARTAMENTO.sql) 
 
 - Tabela de cadastro do departamento, exemplo: Área de TI, Telemarketing e CRM.
 
-### Tabela: TB_ATENDENTE
+### Tabela: TB_ATENDENTE [TB_ATENDENTE](https://github.com/jacksonwsup/bancodedados/blob/main/CALLCENTER_TB_ATENDENTE.sql) 
 
 - Esta tabela é onde fica registrado o cadastro dos atendentes da empresa.
 
-### Tabela: TB_MOTIVO_ATENDIMENTO
+### Tabela: TB_MOTIVO_ATENDIMENTO [TB_MOTIVO_ATENDIMENTO](https://github.com/jacksonwsup/bancodedados/blob/main/CALLCENTER_TB_MOTIVO_ATENDIMENTO.sql) 
 
 - Esta tabela registra os motivos dos atendimentos, por exemplo: falha de equipamento, dúvidas ou elogios.
 
-### Tabela: TB_PRODUTO
+### Tabela: TB_PRODUTO [TB_PRODUTO](https://github.com/jacksonwsup/bancodedados/blob/main/CALLCENTER_TB_PRODUTO.sql) 
 
 - A tabela de produto, tem cadastro os produtos que a empresa realiza atendimento, como internet, TV a cabo, telefone entre outros.
 
-### Tabela: TB_CANALATENDIMENTO
+### Tabela: TB_CANALATENDIMENTO [TB_CANALATENDIMENTO](https://github.com/jacksonwsup/bancodedados/blob/main/CALLCENTER_TB_CANALATENDIMENTO.sql)
 
-- Esta tabela registra o status do canal.
+- Esta tabela registra o status do canal. 
 
-### Tabela: TB_ATENDIMENTO
+### Tabela: TB_ATENDIMENTO [TB_ATENDIMENTO](https://github.com/jacksonwsup/bancodedados/blob/main/CALLCENTER_TB_ATENDIMENTO.sql)
 
 - Esta tabela registra os dados dos atendimentos.
 
-## Otimização do Banco de Dados
+## Otimização do Banco de Dados Utilizando os indices [INDEXES](https://github.com/jacksonwsup/bancodedados/blob/main/Create_Index.sql) 
 
 - Criamos alguns índices, que irão melhorar a performance do banco.
 - Também realizamos testes dos índices para escolher quais foram os que tiveram a melhor performance.
+
+
+### KPI'S E RELATÓRIOS:
+
+- [KPI Relatório atendimento por atendente](https://github.com/jacksonwsup/bancodedados/blob/main/relatorio_kpi_Atendimentos.sql)
+- [KPI Relatório por canal e motivo atendimento](https://github.com/jacksonwsup/bancodedados/blob/main/relatorio_kpi_Atendimentos.sql)
+- [KPI Relatório por taxa de resolução de atendimento](https://github.com/jacksonwsup/bancodedados/blob/main/relatorio_kpi_taxa_resolucao_atendimentos.sql)
+
