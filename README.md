@@ -4,11 +4,9 @@
 **Matéria:** Programação e Otimização em SQL  
 **Prof. Manoel A. da Silva Jr.**
 
-### ARQUIVO DO PROJETO EM PDF:
+### ARQUIVO DO PROJETO EM PDF [CALLCENTER](https://github.com/jacksonwsup/bancodedados/blob/main/CALLCENTER.pdf)
 
-[CALLCENTER](https://github.com/jacksonwsup/bancodedados/blob/main/CALLCENTER.pdf)
-
-### [PROJETO_DE_OTIMIZAÇÃO](https://github.com/jacksonwsup/bancodedados/blob/main/PROJETO_DE_OTIMIZAÇÃO.sql)
+### PROJETO DE OTIMIZAÇÃO ARQUIVO SQL [PROJETO_DE_OTIMIZAÇÃO](https://github.com/jacksonwsup/bancodedados/blob/main/PROJETO_DE_OTIMIZAÇÃO.sql)
 
 **Alunos:**
 1. Gustavo Ferreira Lima
