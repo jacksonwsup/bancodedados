@@ -52,6 +52,11 @@ Diagrama:
 
 
 ![Modelagem](https://github.com/jacksonwsup/bancodedados/blob/main/DiagramaV2.png)
+![KPI'S](https://github.com/jacksonwsup/bancodedados/blob/main/KPIS.png)
+![TP_MEDIO](https://github.com/jacksonwsup/bancodedados/blob/main/KPIS.png)
+![Modelo_Querys](https://github.com/jacksonwsup/bancodedados/blob/main/Modelo_Querys.png)
+
+
 
 ## Explicação da Modelagem e Link para criação e população da base de dados:
 
