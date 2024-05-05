@@ -6,7 +6,7 @@
 
 ### ARQUIVO DO PROJETO EM PDF [CALLCENTER](https://github.com/jacksonwsup/bancodedados/blob/main/CALLCENTER.pdf)
 
-### PROJETO DE OTIMIZAÇÃO ARQUIVO SQL [PROJETO_DE_OTIMIZAÇÃO](https://github.com/jacksonwsup/bancodedados/blob/main/PROJETO_DE_OTIMIZAÇÃO.sql)
+### PROJETO DE OTIMIZAÇÃO ARQUIVO SQL [PROJETO_DE_OTIMIZAÇÃO](https://github.com/jacksonwsup/bancodedados/blob/main/PROJETO_DE_OTIMIZAÇÃO.sql) (Arquivo extenso, necessita de efetuar download )
 
 **Alunos:**
 1. Gustavo Ferreira Lima
