@@ -53,52 +53,20 @@
 
 ![Modelagem](https://github.com/jacksonwsup/bancodedados/blob/main/DiagramaV2.png)
 
+
+### ARQUIVO DO POWERBI COM EXTENSÃO PARA DOWNLOAD PBIX [PROJETO_POWERBI]https://github.com/jacksonwsup/bancodedados/blob/main/PROJETO_DE_OTIMIZAÇÃO_DASHBOARD_DE_INDICADORES.pbix
+
 ### DASHBOARD DE MONITORAMENTO GERENCIAL :
 
 ![KPI'S](https://github.com/jacksonwsup/bancodedados/blob/main/KPIS.png)
 
-### MODELAGEM DAS CONSULTAS UTILIZADA:
+### MODELAGEM DAS CONSULTAS UTILIZADA PARA GERAR OS KPIS:
 
 ![Modelo_Querys](https://github.com/jacksonwsup/bancodedados/blob/main/Modelo_Querys.png)
 
-
-
-## Explicação da Modelagem e Link para criação e população da base de dados:
-
-### Criação do Database [DATABASE CALLCENTER](https://github.com/jacksonwsup/bancodedados/blob/main/Create_Database.sql) 
-
-### Tabela: TB_CLIENTE [TB_CLIENTE](https://github.com/jacksonwsup/bancodedados/blob/main/CALLCENTER_TB_CLIENTE.sql) 
-
-- Esta tabela é responsável por armazenar o cadastro do cliente.
-
-### Tabela: TB_DEPARTAMENTO [TB_DEPARTAMENTO](https://github.com/jacksonwsup/bancodedados/blob/main/CALLCENTER_TB_DEPARTAMENTO.sql) 
-
-- Tabela de cadastro do departamento, exemplo: Área de TI, Telemarketing e CRM.
-
-### Tabela: TB_ATENDENTE [TB_ATENDENTE](https://github.com/jacksonwsup/bancodedados/blob/main/CALLCENTER_TB_ATENDENTE.sql) 
-
-- Esta tabela é onde fica registrado o cadastro dos atendentes da empresa.
-
-### Tabela: TB_MOTIVO_ATENDIMENTO [TB_MOTIVO_ATENDIMENTO](https://github.com/jacksonwsup/bancodedados/blob/main/CALLCENTER_TB_MOTIVO_ATENDIMENTO.sql) 
-
-- Esta tabela registra os motivos dos atendimentos, por exemplo: falha de equipamento, dúvidas ou elogios.
-
-### Tabela: TB_PRODUTO [TB_PRODUTO](https://github.com/jacksonwsup/bancodedados/blob/main/CALLCENTER_TB_PRODUTO.sql) 
-
-- A tabela de produto, tem cadastro os produtos que a empresa realiza atendimento, como internet, TV a cabo, telefone entre outros.
-
-### Tabela: TB_CANALATENDIMENTO [TB_CANALATENDIMENTO](https://github.com/jacksonwsup/bancodedados/blob/main/CALLCENTER_TB_CANALATENDIMENTO.sql)
-
-- Esta tabela registra o status do canal. 
-
-### Tabela: TB_ATENDIMENTO [TB_ATENDIMENTO](https://github.com/jacksonwsup/bancodedados/blob/main/CALLCENTER_TB_ATENDIMENTO.sql)
-
-- Esta tabela registra os dados dos atendimentos.
+## Arquivo DUMP com projeto populado [Dump20240504-1.rar](https://github.com/jacksonwsup/bancodedados/blob/main/Dump20240504-1.rar) 
 
 ## Otimização do Banco de Dados Utilizando os indices [INDEXES](https://github.com/jacksonwsup/bancodedados/blob/main/Create_Index.sql) 
-
-- Criamos alguns índices, que irão melhorar a performance do banco.
-- Também realizamos testes dos índices para escolher quais foram os que tiveram a melhor performance.
 
 
 ### KPI'S E RELATÓRIOS:
