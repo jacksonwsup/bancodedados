@@ -4,7 +4,10 @@
 **Matéria:** Programação e Otimização em SQL  
 **Prof. Manoel A. da Silva Jr.**
 
-![CALLCENTER.pdf]](https://github.com/jacksonwsup/bancodedados/blob/main/CALLCENTER.pdf)
+### ARQUIVO DO PROJETO EM PDF:
+
+[CALLCENTER](https://github.com/jacksonwsup/bancodedados/blob/main/CALLCENTER.pdf)
+
 
 **Alunos:**
 1. Gustavo Ferreira Lima
