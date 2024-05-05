@@ -63,7 +63,7 @@
 
 ![KPI'S](https://github.com/jacksonwsup/bancodedados/blob/main/KPIS.png)
 
-### MODELAGEM DAS CONSULTAS UTILIZADA PARA GERAR OS KPIS:
+### MODELAGEM DAS CONSULTAS UTILIZADAS PARA GERAR OS KPIS:
 
 ![Modelo_Querys](https://github.com/jacksonwsup/bancodedados/blob/main/Modelo_Querys.png)
 
