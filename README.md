@@ -54,7 +54,7 @@
 ![Modelagem](https://github.com/jacksonwsup/bancodedados/blob/main/DiagramaV2.png)
 
 
-### ARQUIVO DO POWERBI COM EXTENSÃO PARA DOWNLOAD PBIX [PROJETO_POWERBI]https://github.com/jacksonwsup/bancodedados/blob/main/PROJETO_DE_OTIMIZAÇÃO_DASHBOARD_DE_INDICADORES.pbix
+### ARQUIVO DO POWERBI COM EXTENSÃO PARA DOWNLOAD PBIX [PROJETO_POWERBI](https://github.com/jacksonwsup/bancodedados/blob/main/PROJETO_DE_OTIMIZAÇÃO_DASHBOARD_DE_INDICADORES.pbix)
 
 ### DASHBOARD DE MONITORAMENTO GERENCIAL :
 
