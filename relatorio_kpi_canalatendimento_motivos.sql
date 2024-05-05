@@ -1,7 +1,5 @@
 #Relatório Tempo Médio de Resolução de Atendimentos por Canal de Atendimento e motivos relacionados.
 
-SET lc_time_names='pt_PT';
-
 SELECT 
     C.NOME_CANAL,
     M.NOME_MOTIVO,
