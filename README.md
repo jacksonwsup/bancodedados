@@ -8,6 +8,7 @@
 
 [CALLCENTER](https://github.com/jacksonwsup/bancodedados/blob/main/CALLCENTER.pdf)
 
+### [PROJETO_DE_OTIMIZAÇÃO](https://github.com/jacksonwsup/bancodedados/blob/main/PROJETO_DE_OTIMIZAÇÃO.sql)
 
 **Alunos:**
 1. Gustavo Ferreira Lima
